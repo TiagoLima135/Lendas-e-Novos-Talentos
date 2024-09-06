@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisar Atletas</title>
+    <link href="./pesquisa.css" rel="stylesheet">
+</head>
+<body>
+    <div class="search-container">
+        <h1>Pesquisar Atletas</h1>
+        <div class="search-bar">
+            <input id="pesquisaInput" type="text" placeholder="Digite o nome do atleta">
+            <button id="searchBtn" type="button" onclick="pesquisar()">Pesquisar</button>
+        </div>
+    </div>
+
+    <main>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    
+    <script src="./dados.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
